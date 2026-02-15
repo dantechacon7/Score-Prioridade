@@ -6,7 +6,7 @@ Este projeto traz uma infraestrutura inteligente para cálculo de prioridade e r
 
 * **Desacoplamento:** A lógica de pesos não está no código. Ela é lida dinamicamente de uma planilha.
 * **Autonomia na manutenção:** Gestores podem alterar pesos na planilha sem tocar em código.
-* **Segurança:** Validação de autenticidade via Headers customizados. Isso será de extrema valia, pois para o Jira acessar o AppScript, a configuração de visibilidade da URL de requisição precisa ser "Qualquer pessoa", o que não possibilita que qualquer pessoa veja seu código fonte, mas que possa ser realizada uma requisição, nesse exemplo, ao Slack, incluindo informações diversas no JSON.
+* **Segurança:** Validação de autenticidade via Headers customizados. Isso será de extrema valia, pois para o Jira acessar o AppScript, a configuração de visibilidade da URL de requisição precisa ser "Qualquer pessoa", o que não possibilita que qualquer pessoa veja seu código fonte, mas que possa ser realizada uma requisição, nesse exemplo, ao Jira, incluindo informações diversas no JSON.
 * **Timeline Limpa:** O script gerencia o histórico de comentários, removendo logs antigos.
 
 ---
