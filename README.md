@@ -1,4 +1,4 @@
-# Cálculo dinâmico de score com Jira + AppScript
+# Cálculo dinâmico de score com Jira + Apps Script
 
 Este projeto traz uma infraestrutura inteligente para cálculo de prioridade e risco em chamados do Jira, utilizando **Google Apps Script** para o processamento e **Google Sheets** como banco de regras dinâmicas. O **jira** entra como ferramenta que irá enviar as respostas dos campos e receber o score final de risco para definição de prioridade dos times envolvidos na demanda.
 
