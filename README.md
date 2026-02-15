@@ -2,13 +2,6 @@
 
 Este projeto provê uma infraestrutura inteligente para cálculo de prioridade e risco em chamados do Jira, utilizando **Google Apps Script** como motor de processamento e **Google Sheets** como banco de regras dinâmicas (Single Source of Truth).
 
-## 🌟 Diferenciais desta Versão
-
-* **Decoupling (Desacoplamento):** A lógica de pesos não está no código. Ela é lida dinamicamente de uma planilha.
-* **Autonomia de Negócio:** Gestores de Compliance ou Negócios podem alterar pesos e critérios na planilha sem tocar em uma linha de código.
-* **Segurança Robusta:** Validação de autenticidade via Headers customizados e Shared Secret.
-* **Timeline Limpa:** O script gerencia o histórico de comentários, removendo logs antigos e mantendo apenas a classificação mais atual no ticket.
-
 ---
 
 ## 🏗️ Arquitetura da Solução
